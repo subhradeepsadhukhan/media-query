@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    margin: 0px 0px;
+    padding: 8px 0px;
+    font-family:  sans-serif;
+   
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 1px;
+    box-sizing: border-box;
+    
+}
+.box-size{
+    width: 100%;
+    float: left;
+    
+    
+}
+.box{
+    width:25%;
+    background-color: #f44336;
+    padding: 20px 0px;
+    float:left;
+    
+    
+}
+.pink{
+    background-color: #e91e63;
+    
+}
+.magenta{
+    background-color: #9c27b0;
+}
+.light-blue{
+    background-color: #00bcd4;
+}
+.box span{
+    padding-top: 14px;
+    display: block;
+    text-align: center;
+}
+
+.box span img{
+    width: 40px;
+}
+
+.box h2{
+    text-align: center;
+    color:#fff;
+    font-size: 26px;
+    text-transform: uppercase;
+
+}
+.image-size{
+    width: 100%;
+    float: left;
+   
+    
+}
+h1{font-size: 46px;margin-bottom: 25px;}
+.img-cover{
+    width:48%;
+    float:left;
+    padding-top: 34px;
+    
+    
+}
+.img-cover span{
+    display: block;
+}
+    
+.img-cover span img{
+    width:100%;
+}
+   
+
+.text-cover{
+    width:48%;
+    float:right;
+    padding: 14px 0px;
+    text-align: justify;
+    color: rgb(26, 23, 23);
+    box-sizing: border-box;
+    
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+     .box-size .box{
+        width: 50%;
+    }
+    .img-cover{
+        width: 100%;
+        padding-top: 25px;
+
+   }
+   
+   h1{font-size: 50px;}
+   .text-cover{
+    width: 93%;
+    float: left;
+    padding: 0px 25px;
+   
+}
+p{font-size: 20px;}
+
+}
+
+
+@media screen and (max-width: 460px){
+
+    .box-size .box{
+        width: 100%;
+    }
+    .img-cover{
+        width: 100%;
+        padding-top: 25px;}
+
+    h1{font-size: 35px;margin-bottom: 15px;}
+    
+    
+    .text-cover{
+        width: 87%;
+        float: left;
+        padding: 0px 20px ;
+        text-align: justify;}
+   
+        p{font-size: 13px;
+          padding-bottom: 0px;
+        }
+         
+
+}
+
+ 
